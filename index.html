@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container">
+
+    <!-- nav section -->
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top shadow-lg">
+           
+            
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./images/Logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active me- text-white" aria-current="page" href="#">Destinations</a>
+                  </li>
+                  <li class="nav-item me-4">
+                    <a class="nav-link text-white" href="#">Hotels</a>
+                  </li>
+                  <li class="nav-item me-4">
+                    <a class="nav-link text-white" href="#">Flights</a>
+                  </li>
+                  <li class="nav-item me-4">
+                    <a class="nav-link text-white" href="#">Bookings</a>
+                  </li>
+                </ul>
+        
+                <form class="d-flex">
+                  <button class="btn btn-outline-success text-white" type="submit">Sign Up</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+    <header>
+
+      <!-- carousel -->
+
+      <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-inner mt-5 pt-3">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./images/travel.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption carousel-first-slide" >
+              <h1 class="fs-1 mt-6"> Travelling is FUN!!!</h1>
+              <button class="btn btn-info text-white mt-3 fs-4">Click here for Details</button>
+            </div>
+           
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/travel2.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption carousel-second-slide">
+              <h1 class="fs-1 mt-6"> Time to heal your mind and soul</h1>
+              <button class="btn btn-info text-white mt-3 fs-4">Click here for Details</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/travel3.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption carousel-third-slide">
+              <h1 class="fs-1 mt-6">Pack your stuff and get on the go!</h1>
+              <button class="btn btn-info text-white mt-3 fs-4">Click here for Details</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+     <!-- grid layout section -->
+
+    <section>
+      <div class="container my-4">
+        <h2 class="fs-1 text-center my-5 py-5">We offer Best Services</h2>
+        <div class="row my-5">
+          <div class="col text-center">
+            <img src="./images/Group 48.png" class="resize-img">
+            <h5 class="my-2">Calculated Weather </h5>
+            <p class="lh-lg">Built Wicket longer admire do barton vanity itself do in it.</p>
+          </div>
+
+          <div class="col text-center">
+            <img src="./images/Group 51.png" class="resize-img" alt="">
+            <h5>Best Flights</h5>
+            <p class="lh-lg">Engrossed listening. Park gate sell they west hard for the.</p>
+          </div>
+
+          <div class="col text-center">
+            <img src="./images/Group 50.png" class="resize-img" alt="">
+            <h5>Local Events</h5>
+            <p class="lh-lg">Barton vanity itself do in it. Preferd to men it engrossed listening. </p>
+          </div>
+
+          <div class="col text-center">
+            <img src="./images/Group 49.png" class="resize-img" alt="">
+            <h5>Customization</h5>
+            <p class="lh-lg">We deliver outsourced
+              aviation services for
+              military customers</p>
+          </div>
+        </div>
+      </div>
+   </section>
+
+    <!-- about section -->
+    <section class="mt-5 about">
+      <div class="container">
+        <div class="row">
+          <div class="col m-5 p-5 ">
+            <img src="./images/Image.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col ms-5">
+            <h1 class="fs-1 lh-base pt-5 mt-5">Travel, enjoy <br>
+              and live a full life</h1>
+            <p class="fs-4 lh-base about-section-para my-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam at rem rerum cum voluptatem itaque id sint corrupti consectetur suscipit,cupiditate fugiat quis? Esse, eveniet voluptas.</p>
+            <button class="btn btn-warning text-white my-5">Find out more</button>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- form section starts -->
+    <section class="form-section rounded mx-auto">
+      <h4 class="lh-base text-center my-3 pb-3 pt-5">Subscribe to get information, latest news and other <br>
+      interesting offers about Jadoo</h4>
+      <form action="" class="my-2 py-5 w-50 mx-auto">
+        <div>
+          <label for="email" class='form-label fs-5'>Email address</label>
+          <input id="email" type="email" class="form-control mb-3 w-100 mx-auto" maxlength="2" name="" placeholder="Your email" id="">
+        </div>
+        <div>
+          <label for="password" class='form-label fs-5'>Password</label>
+          <input type="password" class="form-control mb-3 w-100 mx-auto" name="" placeholder="Your password" id="">
+        </div>
+        <div>
+          <label for="textarea" class='form-label fs-5'>Any Message?</label>
+          <textarea name="" class="form-control w-100 mx-auto" id=""></textarea>
+        </div>
+
+        <div class="d-flex justify-content-center my-5">
+          <button class="btn btn-danger text-center">Subscribe</button>
+        </div>
+        
+      </form>
+    </section>
+   
+     
+
+     <!-- footer -->
+      <footer>
+        <div class="container mx-auto">
+          <div class="row">
+            <div class="col me-5">
+              <img src="./images/Jadoo..png" class="my-5" alt="">
+              <p class="fs-5 lh-base">Book your trip in minute, get full
+                Control for much longer.
+              </p>
+            </div>
+            <div class="col ms-5"> 
+              <ul class="list-unstyled text-center">
+                <h6 class="fw-bold fs-4 my-5">Company</h6>
+                <li class=""><a href="" class='nav-link fs-5'>About</a></li>
+                <li class=""><a href="" class='nav-link fs-5'>Career</a></li>
+                <li class=""><a href="" class='nav-link fs-5'>Mobile</a></li>
+              </ul>
+            </div>
+            <div class="col ms-5">
+              <ul class="list-unstyled">
+                <h6 class="fw-bold fs-4 my-5 text-center">Contact</h6>
+                <li><a href="" class='nav-link fs-5 text-center'>Help/FAQ</a></li>
+                <li><a href="" class='nav-link fs-5 text-center'>Press</a></li>
+                <li><a href="" class='nav-link fs-5 text-center'>Affiliates</a></li>
+              </ul>
+            </div>
+            <div class="col ms-5">
+              <ul class="list-unstyled">
+                <h6 class="fw-bold fs-4 my-5 text-center">More</h6>
+                <li><a href="" class='nav-link fs-5 text-center'>Airlinefees</a></li>
+                <li><a href="" class='nav-link fs-5 text-center'>Airline</a></li>
+                <li><a href="" class='nav-link fs-5 text-center'>Low fare fees</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <p class="text-center fs-5 my-5 pt-5">All rights reserved@jadoo.co</p>
+        </div>
+      </footer>
+
+
+
+
+
+    <!-- Bootstap JS Bundle link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
